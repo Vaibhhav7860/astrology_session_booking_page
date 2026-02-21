@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+/.agent/
+/ralphy/
+
 # next.js
 /.next/
 /out/
@@ -39,3 +42,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
